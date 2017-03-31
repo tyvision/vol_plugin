@@ -41,3 +41,9 @@ ffffffff81aa8360 - address
 000000000000a240 d pmc_prev_left
 000000000000a440 D cpu_hw_events
 000000000000b700 d bts_ctx
+
+BUILD OWN PROFILE
+✓ Module.dwarf
+✓ System.map
+✓ Load built profile
+✓ Ready for stage 2
