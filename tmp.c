@@ -27,3 +27,17 @@ struct subsys_private *p;
 system.map:
 ffffffff81aa8360 D pci_bus_type
 ffffffff81aa8360 - address
+
+000000000000a020 D cpu_llc_id
+000000000000a040 D cpu_llc_shared_map
+000000000000a080 D cpu_core_map
+000000000000a0c0 D cpu_sibling_map
+000000000000a100 D cpu_info
+000000000000a1e0 D cpu_number
+000000000000a1e8 D this_cpu_off
+000000000000a1f0 D x86_cpu_to_apicid
+000000000000a1f2 D x86_bios_cpu_apicid
+000000000000a200 d cpu_loops_per_jiffy
+000000000000a240 d pmc_prev_left
+000000000000a440 D cpu_hw_events
+000000000000b700 d bts_ctx
