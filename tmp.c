@@ -1,6 +1,19 @@
-struct device_private {
+struct pci_dev {
 	...
-	struct klist_node knode_bus;
-	struct device *device;
+	unsigned int	class;  
+	struct  device  dev;
+	struct resource resource[];
+	...
+}
+
+struct resource {
+	resource_size_t start;
+	resource_size_t end;
 	...
 };
+
+struct bus_type {
+…
+struct subsys_private *p;
+…
+}
