@@ -24,3 +24,6 @@ struct subsys_private *p;
 	Memory at e0000000 (64-bit, prefetchable) [size=256M]
 
 
+system.map:
+ffffffff81aa8360 D pci_bus_type
+ffffffff81aa8360 - address
